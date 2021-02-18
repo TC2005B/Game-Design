@@ -22,7 +22,7 @@ _Table of content generated using VSCode plugin [Markdown TOC](https://marketpla
 # Introduction
 
 ## Purpose
-Set the expectation for the product you’re building. So, start by defining the purpose of your product.
+Draw attention from future college students into STEM careers through a simple videogame.
 
 ## Scope
 Describe the software being specified. Include benefits, objectives, and goals. This should relate to overall business goals, especially if teams outside of development will have access to the SRS
