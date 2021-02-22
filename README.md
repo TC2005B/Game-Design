@@ -29,11 +29,11 @@ A 2D videogame puzzle/exploration oriented powered by Unity due to its adaptabil
 Describe the software being specified. Include benefits, objectives, and goals. This should relate to overall business goals, especially if teams outside of development will have access to the SRS
 
 ## Definitions and Acronyms
-STEAM: Science, Technology, Engineering, Art, Mathematics\n
-GPU: graphics processor unit
-JS: JavaScript
-2D: Two dimensions 
-WebGL: Web Graphics Library
+*STEAM: Science, Technology, Engineering, Art, Mathematics
+*GPU: graphics processor unit
+*JS: JavaScript
+*2D: Two dimensions 
+*WebGL: Web Graphics Library
 
 Include any non-trivial definition or acronym used in the document.
 
