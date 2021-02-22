@@ -43,10 +43,10 @@ The player will take the role of a character inside a PC build whose main object
 
 ## User classes
 - Player: the target audience are college newcomers in whom we intend to delevope an interest for the careers STEAM has to offer through the gaming experience. 
-- STEAM: with the information provided by the players, the organization will 
-User classes and characteristics are critical. You’ll need to define who (different roles) is going to use the product and how. Don't forget to include each user needs.
+- STEAM: with the information provided by the players, the organization will create an objective analysis about their particular interests while playing the game. 
 
 ## Assumptions and Dependencies
+- Due to o
 There might be factors that impact your ability to fulfill the requirements outlined in this document. What are those factors?
 
 Are there any assumptions you’re making that could turn out to be false? You should include those here, as well.
