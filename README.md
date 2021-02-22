@@ -29,7 +29,7 @@ A 2D videogame puzzle/exploration oriented powered by Unity due to its adaptabil
 Describe the software being specified. Include benefits, objectives, and goals. This should relate to overall business goals, especially if teams outside of development will have access to the SRS
 
 ## Definitions and Acronyms
-STEAM: Science, Technology, Engineering, Art, Mathematics
+STEAM: Science, Technology, Engineering, Art, Mathematics\n
 GPU: graphics processor unit
 JS: JavaScript
 2D: Two dimensions 
@@ -38,12 +38,11 @@ WebGL: Web Graphics Library
 Include any non-trivial definition or acronym used in the document.
 
 # Overall Description
-The game consists in a 2D cenital perspective exploarion and puzzle centered experience that will induce the STEAM careers vision into 
-Describe what you’re going to build. Is it an update to an existing product? Is it a new product? Is it an add-on to a product you’ve already created?
-
-These are important to describe upfront, so everyone knows what you’re building.
+The game consists in a 2D cenital perspective exploarion and puzzle centered experience. It's a brand new delivery that's based on existing videogames with similar concepts.
+The player will take the role of a character inside a PC build whose main objective is exploring and realizing the tasks of each of the computer components. The tasks to be made in each components will be in a puzzle nature, resembling in a way the actual function of these components.
 
 ## User classes
+Player: the target 
 User classes and characteristics are critical. You’ll need to define who (different roles) is going to use the product and how. Don't forget to include each user needs.
 
 ## Assumptions and Dependencies
