@@ -46,7 +46,8 @@ The player will take the role of a character inside a PC build whose main object
 - STEAM: with the information provided by the players, the organization will create an objective analysis about their particular interests while playing the game. 
 
 ## Assumptions and Dependencies
-- Due to o
+- Due to the lack of experience of the team in Unity, we fear a non-singinficant delay in the finished proyect.
+- Remote work is required because of the current global circumstances which could possibly cause communication misunderstandings and decition making troubles.
 There might be factors that impact your ability to fulfill the requirements outlined in this document. What are those factors?
 
 Are there any assumptions you’re making that could turn out to be false? You should include those here, as well.
@@ -54,7 +55,15 @@ Are there any assumptions you’re making that could turn out to be false? You s
 Finally, you should note if your project is dependent on any external factors. This might include software components you’re reusing from another project.
 
 # System Features and Requirements
-This is where you detail the specific requirements for building your product.
+- 64bits OS
+- 8gb RAM
+- 2gb dedicated GPU
+- Intel i5 or higher
+- Stable internet connection
+- Unity installed
+- Github
+- Zoom
+- JS/Unity documentation access
 
 ## Functional Requirements
 The functional requirements describe the services and functions of a system. Functional requirements must be precise and unambiguous.
