@@ -42,7 +42,8 @@ The game consists in a 2D cenital perspective exploarion and puzzle centered exp
 The player will take the role of a character inside a PC build whose main objective is exploring and realizing the tasks of each of the computer components. The tasks to be made in each components will be in a puzzle nature, resembling in a way the actual function of these components.
 
 ## User classes
-Player: the target 
+- Player: the target audience are college newcomers in whom we intend to delevope an interest for the careers STEAM has to offer through the gaming experience. 
+- STEAM: with the information provided by the players, the organization will 
 User classes and characteristics are critical. You’ll need to define who (different roles) is going to use the product and how. Don't forget to include each user needs.
 
 ## Assumptions and Dependencies
