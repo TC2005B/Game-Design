@@ -22,23 +22,32 @@ _Table of content generated using VSCode plugin [Markdown TOC](https://marketpla
 # Introduction
 
 ## Purpose
-Set the expectation for the product you’re building. So, start by defining the purpose of your product.
+Draw attention from future college students into STEAM careers through a simple videogame.
 
 ## Scope
+A 2D videogame puzzle/exploration oriented powered by Unity due to its adaptability and intuitivity of use for projects of this sort. Another important tool to be used is WebGl for connecting the JS script into the 2D graphics and mechanics of the game. 
 Describe the software being specified. Include benefits, objectives, and goals. This should relate to overall business goals, especially if teams outside of development will have access to the SRS
 
 ## Definitions and Acronyms
+- STEAM: Science, Technology, Engineering, Art, Mathematics
+- GPU: graphics processor unit
+- JS: JavaScript
+- 2D: Two dimensions 
+- WebGL: Web Graphics Library
+
 Include any non-trivial definition or acronym used in the document.
 
 # Overall Description
-Describe what you’re going to build. Is it an update to an existing product? Is it a new product? Is it an add-on to a product you’ve already created?
-
-These are important to describe upfront, so everyone knows what you’re building.
+The game consists in a 2D cenital perspective exploarion and puzzle centered experience. It's a brand new delivery that's based on existing videogames with similar concepts.
+The player will take the role of a character inside a PC build whose main objective is exploring and realizing the tasks of each of the computer components. The tasks to be made in each components will be in a puzzle nature, resembling in a way the actual function of these components.
 
 ## User classes
-User classes and characteristics are critical. You’ll need to define who (different roles) is going to use the product and how. Don't forget to include each user needs.
+- Player: the target audience are college newcomers in whom we intend to delevope an interest for the careers STEAM has to offer through the gaming experience. 
+- STEAM: with the information provided by the players, the organization will create an objective analysis about their particular interests while playing the game. 
 
 ## Assumptions and Dependencies
+- Due to the lack of experience of the team in Unity, we fear a non-singinficant delay in the finished proyect.
+- Remote work is required because of the current global circumstances which could possibly cause communication misunderstandings and decition making troubles.
 There might be factors that impact your ability to fulfill the requirements outlined in this document. What are those factors?
 
 Are there any assumptions you’re making that could turn out to be false? You should include those here, as well.
@@ -46,7 +55,15 @@ Are there any assumptions you’re making that could turn out to be false? You s
 Finally, you should note if your project is dependent on any external factors. This might include software components you’re reusing from another project.
 
 # System Features and Requirements
-This is where you detail the specific requirements for building your product.
+- 64bits OS
+- 8gb RAM
+- 2gb dedicated GPU
+- Intel i5 or higher
+- Stable internet connection
+- Unity installed
+- Github
+- Zoom
+- JS/Unity documentation access
 
 ## Functional Requirements
 The functional requirements describe the services and functions of a system. Functional requirements must be precise and unambiguous.
