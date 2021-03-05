@@ -46,15 +46,15 @@
 
 ## Summary
 
-Sum up your game idea in 2 sentences. A kind of elevator pitch. Keep it simple!
+Nuestro juego consistirá en dos partes esenciales, exploración en un mapa principal y puzzles en diferentes estructuras del mismo.
 
 ## Gameplay
 
-What should the gameplay be like? What is the goal of the game, and what kind of obstacles are in the way? What tactics should the player use to overcome them?
+El jugador empezará en un mapa explorable, donde encontrará diversas estructuras, que representan componentes electrónicos de una computadora, se podrá acceder a estas estructuras donde el jugador se encontrará ante diversos puzzles que representarán de una manera interactiva el funcionamiento de cada uno de estos componentes.
 
 ## Mindset
 
-What kind of mindset do you want to provoke in the player? Do you want them to feel powerful, or weak? Adventurous, or nervous? Hurried, or calm? How do you intend to provoke those emotions?
+Se busca que el jugador tenga interés por ir descubriendo/desbloqueando el mapa, se hará un mapa agradable e interesante para que el usuario desea saber qué más hay, qué otros desafíos puede enfrentar o qué secretos puede encontrar, al empezar el mapa no explorado tendrá un sombreado que será removido al momento que el jugador explore cierta zona, de igual manera habrá partes bloqueadas del mapa que solo serán accesibles al completar cierta cantidad de puzzles. 
 
 ## _Technical_
 
