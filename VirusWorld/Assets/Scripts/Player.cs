@@ -13,13 +13,13 @@ public class Player : MonoBehaviour
     {
         SpriteRenderer rendererRobot = GetComponent <SpriteRenderer> ();
         direccion.x = Input.GetAxisRaw("Horizontal");
-        if (Input.GetAxisRaw("Horizontal") == 1)
-        {
-            rendererRobot.flipX = true;
-        }
-        else if (Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Horizontal") == 0)
+        if (Input.GetAxisRaw("Horizontal") == -1)
         {
             rendererRobot.flipX = false;
+        }
+        else if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == 0)
+        {
+            rendererRobot.flipX = true;
         }
         direccion.y = Input.GetAxisRaw("Vertical");
         transform.position = transform.position + direccion * velocidad;
