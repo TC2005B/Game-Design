@@ -36,7 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraFollower.cs" />
+     <Compile Include="Assets\Scripts\Entrar.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Salir.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/2019.4.20f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

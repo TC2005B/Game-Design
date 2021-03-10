@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 5219
+  controlID: 19361
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 5220
+  controlID: 19320
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,9 +205,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.01717506, y: 2.791384, z: -19.015625}
+    m_Target: {x: 3.2716784, y: 1.2522321, z: -1.2070312}
     speed: 2
-    m_Value: {x: 0.01717506, y: 2.791384, z: -19.015625}
+    m_Value: {x: 3.2716784, y: 1.2522321, z: -1.2070312}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -243,13 +243,13 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
-    m_ShowGrid: 1
+    m_ShowGrid: 0
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
@@ -257,9 +257,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.365594
+    m_Target: 4.2971516
     speed: 2
-    m_Value: 9.365594
+    m_Value: 4.2971516
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 5170
+  controlID: 19362
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -392,21 +392,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: caf9ffff62fbffff6a39000070390000
+      m_ExpandedIDs: 7e63ffff9263ffff9a63ffff0e67ffff5e68ffff2a6fffff586fffff9070ffffd071ffff0c76ffffd477ffff407affff5a7bffff767bffffa47fffff668bffff768bffff928bffff868dffffc48dffff0c8effff228effff628effffa691ffffb8cfffffcaf9ffff62fbffff6a39000070390000b24a0000b84a00006e500000cc5000002a510000be520000fa530000c6540000e4560000145d0000e65d0000205f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Tilemap_Structures
+        m_OriginalName: Tilemap_Structures
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 21674
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -481,7 +481,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Tiles/Structures Tiles
+    - Assets/Scenes
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -494,7 +494,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 82480000
     m_LastClickedID: 18562
-    m_ExpandedIDs: ffffffff00000000dc390000de390000e0390000e2390000
+    m_ExpandedIDs: ffffffff00000000dc390000e0390000e2390000183a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -520,23 +520,23 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 70390000
+    m_SelectedIDs: 265f0000
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000dc390000de390000e0390000e2390000
+    m_ExpandedIDs: ffffffff00000000dc390000e0390000163a0000183a00001a3a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Mapa
+      m_OriginalName: Mapa
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 15040
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -547,8 +547,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 70390000
-    m_LastClickedInstanceID: 14704
+    m_SelectedInstanceIDs: 265f0000
+    m_LastClickedInstanceID: 24358
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
@@ -640,5 +640,5 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 14704
-  m_LastVerticalScrollValue: 466.0031
+  m_LastInspectedObjectInstanceID: 24358
+  m_LastVerticalScrollValue: 0
