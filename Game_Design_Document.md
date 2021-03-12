@@ -166,9 +166,9 @@ Since it's 2D, it will be cartoony and pixel-y and not precisely realistic of th
 
 ## _Sounds/Music_
 
-https://soundcloud.com/jaime-emilio-828766911
-https://open.spotify.com/artist/7i42XhcctTfHBvHRHMA0mV?si=1TnmpLuQTi2w0OfpsZXJ6g
-https://drive.google.com/drive/u/1/folders/1NNeCDcRpgLiupWv6B066B7M1ziq70b-M
+https://soundcloud.com/jaime-emilio-828766911 <br>
+https://open.spotify.com/artist/7i42XhcctTfHBvHRHMA0mV?si=1TnmpLuQTi2w0OfpsZXJ6g <br>
+https://drive.google.com/drive/u/1/folders/1NNeCDcRpgLiupWv6B066B7M1ziq70b-M <br>
 
 All songs written, produced, and arranged by Jaime Emilio Sánchez
 
