@@ -150,9 +150,9 @@ Since it's 2D, it will be cartoony and pixel-y and not precisely realistic of th
 ## Graphics Needed
 
 1. Characters
-  1. Robots
-    1. Blue robot (idle, walking)
-    2. Red robot (idle, walking, seeking)
+  1. Robots<br>
+    1. Blue robot (idle, walking)<br>
+    2. Red robot (idle, walking, seeking)<br>
 2. Blocks
   1. Borders
   2. Random components
@@ -175,7 +175,7 @@ All songs written, produced, and arranged by Jaime Emilio Sánchez
 
 ## Style Attributes
 
-Some of pre-existing Lawmes tracks share some particular characteristics of videogame music, adding time signature changes representative from prog rock music and some elements from IDM and techno as well that fit the general purpose of the game mood. 
+Some of pre-existing Lawmes tracks share some particular characteristics of videogame music, adding time signature changes representative of prog rock music and some elements from IDM and techno as well that fit the general purpose of the game mood. 
 
 In addition to that, some tracks were composed for the mere objective of adding a particular mood setting to some areas of the game, varying from cathartic music for completing tasks succesfully, passing through friendly exploration music to aggresive and intense tracks for adding pressure to the player.
 
