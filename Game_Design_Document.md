@@ -111,7 +111,9 @@ _(example)_
 
 ## _Development_
 
-![image](https://user-images.githubusercontent.com/65837382/110875661-aaadf100-829b-11eb-9dee-61e88df47035.png)
+<img src="https://user-images.githubusercontent.com/65837382/110875661-aaadf100-829b-11eb-9dee-61e88df47035.png" alt="Img3" width="300" height="200">
+
+
 
 ## Abstract Classes / Components
 
