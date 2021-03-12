@@ -1,4 +1,4 @@
-# **Game Name Here**
+# **Virus World**
 
 ## _Game Design Document_
 
@@ -74,6 +74,7 @@ _(example)_
 
 ## Controls
 
+
 How will the player interact with the game? Will they be able to choose the controls? What kind of in-game events are they going to be able to trigger, and how? (e.g. pressing buttons, opening doors, etc.)
 
 ## Mechanics
@@ -88,42 +89,35 @@ _(Note : These sections can safely be skipped if they&#39;re not relevant, or yo
 
 ## Themes
 
-1. Forest
+1. Motherboard
   1. Mood
-    1. Dark, calm, foreboding
+    1. Calm, neutral
   2. Objects
     1. _Ambient_
       1. Fireflies
       2. Beams of moonlight
       3. Tall grass
     2. _Interactive_
-      1. Wolves
-      2. Goblins
-      3. Rocks
-2. Castle
+      1. Components
+      2. Breakable objects
+      3. Non-breakable objects
+2. RAM
   1. Mood
-    1. Dangerous, tense, active
+    1. Confusing, active
   2. Objects
     1. _Ambient_
-      1. Rodents
-      2. Torches
-      3. Suits of armor
+      1. Labyrinth walls
     2. _Interactive_
-      1. Guards
-      2. Giant rats
-      3. Chests
-
+      1. RAM
 _(example)_
 
 ## Game Flow
 
-1. Player starts in forest
-2. Pond to the left, must move right
-3. To the right is a hill, player jumps to traverse it (&quot;jump&quot; taught)
-4. Player encounters castle - door&#39;s shut and locked
-5. There&#39;s a window within jump height, and a rock on the ground
-6. Player picks up rock and throws at glass (&quot;throw&quot; taught)
-7. … etc.
+1. Player starts in the motherboard
+2. The player can move with the arrow keys
+3. The player can explore freely the motherboard seeking for components
+4. Player encounters a component and enters it
+5. *Each component will have different mechanics
 
 _(example)_
 
