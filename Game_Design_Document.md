@@ -136,13 +136,9 @@ _(example)_
 4. BaseInteractable
   1. Objective (may vary)
 
-
-![image](https://user-images.githubusercontent.com/65837382/110875774-e21c9d80-300b-11eb-99e2-f12a0a8f37bc.png)
-
 ## _Graphics_
 
-![image](https://user-images.githubusercontent.com/65837382/110875800-ec3e9c00-829b-11eb-9980-fda9810e5a6a.png)
-
+<img src="https://user-images.githubusercontent.com/65837382/110875800-ec3e9c00-829b-11eb-9980-fda9810e5a6a.png" alt="Img3" width="300" height="200">
 
 ## Style Attributes
 
@@ -208,10 +204,6 @@ The game sound effects are yet to be design by the same producer in order to fit
 4. Happy ending cathartic, happy sounding track
 
 ## _Schedule_
-
-![](RackMultipart20210224-4-casz78_html_237499165a11f2b9.gif)
-
-_(what is a schedule, i don&#39;t even. list is good enough, right? if not add some dates i guess)_
 
 1. develop base classes
   1. base entity
