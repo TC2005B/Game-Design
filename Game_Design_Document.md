@@ -42,11 +42,14 @@
 
 ## _Game Design_
 
-![](RackMultipart20210224-4-casz78_html_237499165a11f2b9.gif)
+![image](https://user-images.githubusercontent.com/65837382/110875416-32473000-829b-11eb-8464-87d907c02c50.png)
+![image](https://user-images.githubusercontent.com/65837382/110875437-3d9a5b80-829b-11eb-81c9-efc939dd0236.png)
+![image](https://user-images.githubusercontent.com/65837382/110875461-4723c380-829b-11eb-8e4e-b9d36486dbf3.png)
+
 
 ## Summary
 
-The game consists in two essential parts, open world exploration and puzzles within certain areas.
+The game consists of two essential parts, open world exploration and puzzles within certain areas.
 
 ## Gameplay
 
@@ -116,7 +119,7 @@ _(example)_
 
 ## _Development_
 
-![](RackMultipart20210224-4-casz78_html_237499165a11f2b9.gif)
+![image](https://user-images.githubusercontent.com/65837382/110875661-aaadf100-829b-11eb-9dee-61e88df47035.png)
 
 ## Abstract Classes / Components
 
@@ -133,39 +136,24 @@ _(example)_
 
 1. BasePlayer
   1. PlayerMain
-  2. PlayerUnlockable
 2. BaseEnemy
-  1. EnemyWolf
-  2. EnemyGoblin
-  3. EnemyGuard (may drop key)
-  4. EnemyGiantRat
-  5. EnemyPrisoner
+  1. RedRobot
 3. BaseObject
-  1. ObjectRock (pick-up-able, throwable)
-  2. ObjectChest (pick-up-able, throwable, spits gold coins with key)
-  3. ObjectGoldCoin (cha-ching!)
-  4. ObjectKey (pick-up-able, throwable)
-4. BaseObstacle
-  1. ObstacleWindow (destroyed with rock)
-  2. ObstacleWall
-  3. ObstacleGate (watches to see if certain buttons are pressed)
-5. BaseInteractable
-  1. InteractableButton
-
-_(example)_
+  1. Component (breakable)
+  2. Component (unbreakable)
+4. BaseInteractable
+  1. Objective (may vary)
+![image](https://user-images.githubusercontent.com/65837382/110875774-e21c9d80-829b-11eb-99e2-f12a0a8f37bc.png)
 
 ## _Graphics_
 
-![](RackMultipart20210224-4-casz78_html_237499165a11f2b9.gif)
+![image](https://user-images.githubusercontent.com/65837382/110875800-ec3e9c00-829b-11eb-9980-fda9810e5a6a.png)
+
 
 ## Style Attributes
 
-The colors will try to be representative of IT stereotypes such as green, blue, etc that will resemble components of a PC.
-What kinds of colors will you be using? Do you have a limited palette to work with? A post-processed HSV map/image? Consistency is key for immersion.
-
-What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, specifically? Solid, thick outlines with flat hues? Non-black outlines with limited tints/shades? Emphasize smooth curvatures over sharp angles? Describe a set of general rules depicting your style here.
-
-Well-designed feedback, both good (e.g. leveling up) and bad (e.g. being hit), are great for teaching the player how to play through trial and error, instead of scripting a lengthy tutorial. What kind of visual feedback are you going to use to let the player know they&#39;re interacting with something? That they \*can\* interact with something?
+The colors will try to be representative of IT stereotypes such as green, blue, but not limited to these, in order to resemble components of a PC.
+Since it's 2D, it will be cartoony and pixel-y and not precisely realistic of the build of a real PC. Assests will have mainly have marked edges. 
 
 ## Graphics Needed
 
@@ -216,19 +204,14 @@ The game sound effects are yet to be design by the same producer in order to fit
   3. Happy chime (extra life)
   4. Sad chime (died)
 
-_(example)_
+(Yet to be produced)
 
 ## Music Needed
 
-1. Slow-paced, nerve-racking &quot;forest&quot; track
-2. Exciting &quot;castle&quot; track
-3. Creepy, slow &quot;dungeon&quot; track
-4. Happy ending credits track
-5. Rick Astley&#39;s hit #1 single &quot;Never Gonna Give You Up&quot;
-
-_(example)_
-
-_(Note : Again, if you&#39;re soloing you might be able to / want to skip this section. It&#39;s up to you.)_
+1. Upbeat, friendlyM track
+2. Mysterious, danger injected track
+3. Creepy, aggresive, intense track
+4. Happy ending cathartic, happy sounding track
 
 ## _Schedule_
 
@@ -248,14 +231,11 @@ _(what is a schedule, i don&#39;t even. list is good enough, right? if not add s
 3. find some smooth controls/physics
 4. develop other derived classes
   1. blocks
-    1. moving
-    2. falling
+    1. grabbed
+    2. thrown
     3. breaking
-    4. cloud
   2. enemies
-    1. soldier
-    2. rat
-    3.
+    1. robot
 5. design levels
   1. introduce grabbing
 6. design sounds
