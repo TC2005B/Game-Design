@@ -28,11 +28,11 @@
   2. [Derived Classes](#derivedclasses)
 6. [Graphics](#graphics) <ol>
   1. Style Attributes
-  2. Graphics Needed <br>
+  2. Graphics Needed </ol>
 7. [Sounds/Music](#soundsmusic) <ol>
   1. Style Attributes
   2. Sounds Needed
-  3. [Music Needed](#musicneeded) <br>
+  3. [Music Needed](#musicneeded) </ol>
 8. [Schedule](#schedule)
 
 ## _Game Design_
