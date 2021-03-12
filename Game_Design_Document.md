@@ -27,11 +27,11 @@
   1. [Abstract Classes](#abstractclasses)
   2. [Derived Classes](#derivedclasses)
 6. [Graphics](#graphics) <ol>
-  1. Style Attributes(#styleattributes)
-  2. Graphics Needed(#graphicsneeded) </ol>
+  1. Style Attributes
+  2. Graphics Needed </ol>
 7. [Sounds/Music](#soundsmusic) <ol>
   1. Style Attributes(#styleattributes)
-  2. Sounds Needed(#soundsneeded)
+  2. Sounds Needed
   3. [Music Needed](#musicneeded) </ol>
 8. [Schedule](#schedule)
 
