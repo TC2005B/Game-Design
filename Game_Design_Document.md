@@ -12,7 +12,7 @@
  ![](RackMultipart20210224-4-casz78_html_237499165a11f2b9.gif)Index
 
 1. [Index](#index)
-2. [Game Design](#game design)
+2. [Game Design](#gamedesign)
   1. [Summary](#summary)
   2. [Gameplay](#gameplay)
   3. [Mindset](#mindset)
@@ -20,7 +20,7 @@
   1. [Screens](#screens)
   2. [Controls](#controls)
   3. [Mechanics](#mechanics)
-4. [Level Design](#level design)
+4. [Level Design](#leveldesign)
   1. [Themes](#themes)
   2. [Game Flow](#gameflow)
 5. [Development](#developement)
@@ -54,9 +54,6 @@ The player will start in an open map, where divere structures are to be found, e
 
 It is intended that the player will develope an interest in discovering / unlocking the map, a pleasant and interesting map will be made so that the user wants to know what else there is, what other challenges he can face or what secrets he can find, when starting the unexplored map he will have a shading that will be removed when the player explores a certain area, in the same way there will be blocked parts of the map that will only be accessible when completing a certain amount of puzzles.
 
-## _Technical_
-
-![](RackMultipart20210224-4-casz78_html_237499165a11f2b9.gif)
 
 ## Screens
 
@@ -82,9 +79,9 @@ The main aspect of the general map is pretty much 2D movement in a plane map fro
     1. Calm, neutral
   2. Objects
     1. _Ambient_
-      1. Fireflies
-      2. Beams of moonlight
-      3. Tall grass
+      1. LEDS
+      2. Beams of artificial light
+      3. Microcomponents
     2. _Interactive_
       1. Components
       2. Breakable objects
@@ -191,10 +188,9 @@ The game sound effects are yet to be design by the same producer in order to fit
   4. Level failed (may vary)
   5. Object breaking
 2. Feedback
-  1. Relieved &quot;Ahhhh!&quot; (health)
-  2. Shocked &quot;Ooomph!&quot; (attacked)
-  3. Happy chime (extra life)
-  4. Sad chime (died)
+  1. Task completed; (health) 
+  2. Hurt; (attacked)
+  3. Task failed (e)
 
 (Yet to be produced)
 
@@ -218,12 +214,12 @@ The game sound effects are yet to be design by the same producer in order to fit
   1. physics / collisions
 3. find some smooth controls/physics
 4. develop other derived classes
-  1. blocks
-    1. grabbed
-    2. thrown
-    3. breaking
-  2. enemies
-    1. robot
+  1. blocks<br>
+    1. grabbed<br>
+    2. thrown<br>
+    3. breaking<br>
+  2. enemies<br>
+    1. robot<br>
 5. design levels
   1. introduce grabbing
 6. design sounds
