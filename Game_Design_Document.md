@@ -46,15 +46,16 @@
 
 ## Summary
 
-Nuestro juego consistirá en dos partes esenciales, exploración en un mapa principal y puzzles en diferentes estructuras del mismo.
+The game consists in two essential parts, open world exploration and puzzles within certain areas.
 
 ## Gameplay
 
-El jugador empezará en un mapa explorable, donde encontrará diversas estructuras, que representan componentes electrónicos de una computadora, se podrá acceder a estas estructuras donde el jugador se encontrará ante diversos puzzles que representarán de una manera interactiva el funcionamiento de cada uno de estos componentes.
+The player will start in an open map, where divere structures are to be found, each of these represent the electronic components of a pc, these will be accessible in order for the player to play puzzle minigames that will interactively represent the functions of these components.
+
 
 ## Mindset
 
-Se busca que el jugador tenga interés por ir descubriendo/desbloqueando el mapa, se hará un mapa agradable e interesante para que el usuario desea saber qué más hay, qué otros desafíos puede enfrentar o qué secretos puede encontrar, al empezar el mapa no explorado tendrá un sombreado que será removido al momento que el jugador explore cierta zona, de igual manera habrá partes bloqueadas del mapa que solo serán accesibles al completar cierta cantidad de puzzles. 
+It is intended that the player will develope an interest in discovering / unlocking the map, a pleasant and interesting map will be made so that the user wants to know what else there is, what other challenges he can face or what secrets he can find, when starting the unexplored map he will have a shading that will be removed when the player explores a certain area, in the same way there will be blocked parts of the map that will only be accessible when completing a certain amount of puzzles.
 
 ## _Technical_
 
@@ -64,28 +65,20 @@ Se busca que el jugador tenga interés por ir descubriendo/desbloqueando el mapa
 
 1. Title Screen
   1. Options
-2. Level Select
-3. Game
-  1. Inventory
-  2. Assessment / Next Level
-4. End Credits
+2. Game
+  1. Challenges completed counter
+3. End Credits
 
 _(example)_
 
 ## Controls
 
-
-How will the player interact with the game? Will they be able to choose the controls? What kind of in-game events are they going to be able to trigger, and how? (e.g. pressing buttons, opening doors, etc.)
+The player will be able to move through the arrow keys and will enter automatically each component by just moving through their doors. The puzzle mechanics are yet to be defined individually.
 
 ## Mechanics
 
-Are there any interesting mechanics? If so, how are you going to accomplish them? Physics, algorithms, etc.
+The main aspect of the general map is pretty much 2D movement in a plane map from a cenital view. The mechanics of each individual component are still in the making to keep the game interesting and not repetitive.
 
-## _Level Design_
-
-![](RackMultipart20210224-4-casz78_html_237499165a11f2b9.gif)
-
-_(Note : These sections can safely be skipped if they&#39;re not relevant, or you&#39;d rather go about it another way. For most games, at least one of them should be useful. But I&#39;ll understand if you don&#39;t want to use them. It&#39;ll only hurt my feelings a little bit.)_
 
 ## Themes
 
@@ -127,12 +120,12 @@ _(example)_
 
 ## Abstract Classes / Components
 
-1. BasePhysics
-  1. BasePlayer
-  2. BaseEnemy
-  3. BaseObject
-2. BaseObstacle
-3. BaseInteractable
+1. Mainframe
+  1. Player
+  2. Enemy
+  3. DestructibleObject
+2. Obstacle
+3. Collectable
 
 _(example)_
 
@@ -167,6 +160,7 @@ _(example)_
 
 ## Style Attributes
 
+The colors will try to be representative of IT stereotypes such as green, blue, etc that will resemble components of a PC.
 What kinds of colors will you be using? Do you have a limited palette to work with? A post-processed HSV map/image? Consistency is key for immersion.
 
 What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, specifically? Solid, thick outlines with flat hues? Non-black outlines with limited tints/shades? Emphasize smooth curvatures over sharp angles? Describe a set of general rules depicting your style here.
@@ -176,60 +170,46 @@ Well-designed feedback, both good (e.g. leveling up) and bad (e.g. being hit), a
 ## Graphics Needed
 
 1. Characters
-  1. Human-like
-    1. Goblin (idle, walking, throwing)
-    2. Guard (idle, walking, stabbing)
-    3. Prisoner (walking, running)
-  2. Other
-    1. Wolf (idle, walking, running)
-    2. Giant Rat (idle, scurrying)
+  1. Robots
+    1. Blue robot (idle, walking)
+    2. Red robot (idle, walking, seeking)
 2. Blocks
-  1. Dirt
-  2. Dirt/Grass
-  3. Stone Block
-  4. Stone Bricks
-  5. Tiled Floor
-  6. Weathered Stone Block
-  7. Weathered Stone Bricks
+  1. Borders
+  2. Random components
+  3. RAM
+  4. CPU
+  5. GPU
+  6. Random breakable components
 3. Ambient
-  1. Tall Grass
-  2. Rodent (idle, scurrying)
-  3. Torch
-  4. Armored Suit
-  5. Chains (matching Weathered Stone Bricks)
-  6. Blood stains (matching Weathered Stone Bricks)
-4. Other
-  1. Chest
-  2. Door (matching Stone Bricks)
-  3. Gate
-  4. Button (matching Weathered Stone Bricks)
-
-_(example)_
-
-_(Note : If you&#39;re soloing you might not need to define this part, as you can just use the Derived Classes + Themes section as a reference. It&#39;s up to you.)_
+  1. Glitches
+  2. LEDS
 
 ## _Sounds/Music_
 
-![](RackMultipart20210224-4-casz78_html_237499165a11f2b9.gif)
+https://soundcloud.com/jaime-emilio-828766911
+https://open.spotify.com/artist/7i42XhcctTfHBvHRHMA0mV?si=1TnmpLuQTi2w0OfpsZXJ6g
+https://drive.google.com/drive/u/1/folders/1NNeCDcRpgLiupWv6B066B7M1ziq70b-M
+
+All songs written, produced, and arranged by Jaime Emilio Sánchez
+
 
 ## Style Attributes
 
-Again, consistency is key. Define that consistency here. What kind of instruments do you want to use in your music? Any particular tempo, key? Influences, genre? Mood?
+Some of pre-existing Lawmes tracks share some particular characteristics of videogame music, adding time signature changes representative from prog rock music and some elements from IDM and techno as well that fit the general purpose of the game mood. 
 
-Stylistically, what kind of sound effects are you looking for? Do you want to exaggerate actions with lengthy, cartoony sounds (e.g. mario&#39;s jump), or use just enough to let the player know something happened (e.g. mega man&#39;s landing)? Going for realism? You can use the music style as a bit of a reference too.
+In addition to that, some tracks were composed for the mere objective of adding a particular mood setting to some areas of the game, varying from cathartic music for completing tasks succesfully, passing through friendly exploration music to aggresive and intense tracks for adding pressure to the player.
 
- Remember, auditory feedback should stand out from the music and other sound effects so the player hears it well. Volume, panning, and frequency/pitch are all important aspects to consider in both music _and_ sounds - so plan accordingly!
+The game sound effects are yet to be design by the same producer in order to fit the techy setting.
+
 
 ## Sounds Needed
 
 1. Effects
-  1. Soft Footsteps (dirt floor)
-  2. Sharper Footsteps (stone floor)
-  3. Soft Landing (low vertical velocity)
-  4. Hard Landing (high vertical velocity)
-  5. Glass Breaking
-  6. Chest Opening
-  7. Door Opening
+  1. Moving sound (robot sounds)
+  2. Enter the component (may vary)
+  3. Level complete (may vary)
+  4. Level failed (may vary)
+  5. Object breaking
 2. Feedback
   1. Relieved &quot;Ahhhh!&quot; (health)
   2. Shocked &quot;Ooomph!&quot; (attacked)
