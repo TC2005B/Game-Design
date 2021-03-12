@@ -72,8 +72,6 @@ It is intended that the player will develope an interest in discovering / unlock
   1. Challenges completed counter
 3. End Credits
 
-![image](https://user-images.githubusercontent.com/65837382/110875087-9caba080-829a-11eb-848f-d379a6472357.png)
-
 ## Controls
 
 The player will be able to move through the arrow keys and will enter automatically each component by just moving through their doors. The puzzle mechanics are yet to be defined individually.
