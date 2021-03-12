@@ -20,16 +20,16 @@
   1. [Screens](#screens)
   2. [Controls](#controls)
   3. [Mechanics](#mechanics)
-4. [Level Design](#level_design)
+4. [Level Design](#leveldesign)
   1. [Themes](#themes)
   2. [Game Flow](#gameflow)
 5. [Development](#developement)
-  1. [Abstract Classes](#abstract_classes)
+  1. [Abstract Classes](#abstractclasses)
   2. [Derived Classes](#derivedclasses)
 6. [Graphics](#graphics)
   1. Style Attributes
   2. Graphics Needed
-7. [Sounds/Music](#sounds/music)
+7. [Sounds/Music](#soundsmusic)
   1. Style Attributes
   2. Sounds Needed
   3. [Music Needed](#musicneeded)
