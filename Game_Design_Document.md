@@ -14,31 +14,26 @@
 1. [Index](#index)
 2. [Game Design](#game design)
   1. [Summary](#summary)
-  2. [Gameplay](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.q89snwy3vllo)
-  3. [Mindset](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.3j0sjjj4v19l)
-3. [Technical](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.nw2pvrargt85)
-  1. [Screens](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.5baplgyo85eh)
-  2. [Controls](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.4u55u65bonjw)
-  3. [Mechanics](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.vrkne3rhovuh)
-4. [Level Design](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.mun66rmbl34h)
-  1. [Themes](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.feu141lpqdpj)
-    1. Ambience
-    2. Objects
-      1. Ambient
-      2. Interactive
-    3. Challenges
-  2. [Game Flow](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.lrp1xr74olld)
-5. [Development](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.k64sfnylstdx)
-  1. [Abstract Classes](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.fwz93u72nlt2)
-  2. [Derived Classes](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.9mr6xhrqo7o4)
-6. [Graphics](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.7fniby1a9lf0)
-  1. [Style Attributes](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.3ui65x9w2r9w)
-  2. [Graphics Needed](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.cdq39znqma9y)
-7. [Sounds/Music](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.p0zdtpym1l8)
-  1. [Style Attributes](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.g829e5h0mi8e)
-  2. [Sounds Needed](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.1k2k1v9771k6)
-  3. [Music Needed](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.coz0pe9ii0ek)
-8. [Schedule](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.ur637w5onhwq)
+  2. [Gameplay](#gameplay)
+  3. [Mindset](#mindset)
+3. [Technical](#technical)
+  1. [Screens](#screens)
+  2. [Controls](#controls)
+  3. [Mechanics](#mechanics)
+4. [Level Design](#level_design)
+  1. [Themes](#themes)
+  2. [Game Flow](#gameflow)
+5. [Development](#developement)
+  1. [Abstract Classes](#abstract_classes)
+  2. [Derived Classes](#derivedclasses)
+6. [Graphics](#graphics)
+  1. Style Attributes
+  2. Graphics Needed
+7. [Sounds/Music](#sounds/music)
+  1. Style Attributes
+  2. Sounds Needed
+  3. [Music Needed](#musicneeded)
+8. [Schedule](#schedule)
 
 ## _Game Design_
 
