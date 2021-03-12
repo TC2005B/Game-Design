@@ -69,7 +69,7 @@ It is intended that the player will develope an interest in discovering / unlock
   1. Challenges completed counter
 3. End Credits
 
-_(example)_
+![image](https://user-images.githubusercontent.com/65837382/110875087-9caba080-829a-11eb-848f-d379a6472357.png)
 
 ## Controls
 
@@ -240,7 +240,6 @@ _(what is a schedule, i don&#39;t even. list is good enough, right? if not add s
   1. base entity
     1. base player
     2. base enemy
-    3. base block
   2. base app state
     1. game world
     2. menu world
@@ -258,10 +257,6 @@ _(what is a schedule, i don&#39;t even. list is good enough, right? if not add s
     2. rat
     3.
 5. design levels
-  1. introduce motion/jumping
-  2. introduce throwing
-  3. mind the pacing, let the player play between lessons
+  1. introduce grabbing
 6. design sounds
 7. design music
-
-_(example)_
