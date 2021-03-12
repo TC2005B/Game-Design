@@ -135,7 +135,9 @@ _(example)_
   2. Component (unbreakable)
 4. BaseInteractable
   1. Objective (may vary)
-![image](https://user-images.githubusercontent.com/65837382/110875774-e21c9d80-829b-11eb-99e2-f12a0a8f37bc.png)
+
+
+![image](https://user-images.githubusercontent.com/65837382/110875774-e21c9d80-300b-11eb-99e2-f12a0a8f37bc.png)
 
 ## _Graphics_
 
