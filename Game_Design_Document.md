@@ -42,9 +42,9 @@
 
 ## _Game Design_
 
-![image](https://user-images.githubusercontent.com/65837382/110875416-32473000-829b-11eb-8464-87d907c02c50.png)
-![image](https://user-images.githubusercontent.com/65837382/110875437-3d9a5b80-829b-11eb-81c9-efc939dd0236.png)
-![image](https://user-images.githubusercontent.com/65837382/110875461-4723c380-829b-11eb-8e4e-b9d36486dbf3.png)
+![image](https://user-images.githubusercontent.com/65837382/110875416-32473000-829b-11eb-8464-87d907c02c50.png = 100px)
+![image](https://user-images.githubusercontent.com/65837382/110875437-3d9a5b80-829b-11eb-81c9-efc939dd0236.png = 100px)
+![image](https://user-images.githubusercontent.com/65837382/110875461-4723c380-829b-11eb-8e4e-b9d36486dbf3.png = 100px)
 
 
 ## Summary
