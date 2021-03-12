@@ -13,7 +13,7 @@
 
 1. [Index](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.tn44c9jbklu6)
 2. [Game Design](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.vh7mr3wp9gub)
-  1. [Summary](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.y0z7a3kyjoqj)
+  1. [Summary](#summary)
   2. [Gameplay](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.q89snwy3vllo)
   3. [Mindset](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.3j0sjjj4v19l)
 3. [Technical](https://docs.google.com/document/d/1ct5-qyUZC9cAKn-iLUgtOczDkERmPzNNwPLDfT9Hgjs/preview#bookmark=kix.nw2pvrargt85)
