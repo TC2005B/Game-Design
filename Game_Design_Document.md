@@ -20,7 +20,7 @@
   1. [Screens](#screens)
   2. [Controls](#controls)
   3. [Mechanics](#mechanics)
-4. [Level Design](#leveldesign)
+4. [Level Design](#level design)
   1. [Themes](#themes)
   2. [Game Flow](#gameflow)
 5. [Development](#developement)
