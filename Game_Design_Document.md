@@ -26,10 +26,10 @@
 5. [Development](#developement)
   1. [Abstract Classes](#abstractclasses)
   2. [Derived Classes](#derivedclasses)
-6. [Graphics](#graphics)
+6. [Graphics](#graphics) <ol>
   1. Style Attributes
   2. Graphics Needed
-7. [Sounds/Music](#soundsmusic)
+7. [Sounds/Music](#soundsmusic) <ol>
   1. Style Attributes
   2. Sounds Needed
   3. [Music Needed](#musicneeded)
