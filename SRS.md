@@ -110,9 +110,18 @@ The player will take the role of a character inside a PC. The player's main obje
 - Use an SSL certificate on the website
 
 # Screens
-Identifying the individual screens (for an app), or pages (for a website) are where a product’s shape starts to become clear. They are a distillation of the user stories into a set of distinct sections that satisfy the needs and behaviors identified so far. The process of outlining an application’s screens may also highlight any requirements or considerations that have been overlooked up to this point.
+<!--- Identifying the individual screens (for an app), or pages (for a website) are where a product’s shape starts to become clear. They are a distillation of the user stories into a set of distinct sections that satisfy the needs and behaviors identified so far. The process of outlining an application’s screens may also highlight any requirements or considerations that have been overlooked up to this point. -->
 
-This has the dual purpose of both contributing to a more accurate vision of the product early on, and serving as a jumping-off point for the time when designers do get involved.
+<!--- This has the dual purpose of both contributing to a more accurate vision of the product early on, and serving as a jumping-off point for the time when designers do get involved. -->
+
+Game start
+- basic start of the game with two buttons, one to start the game and another to see the title screen
+
+Map View
+- the whole motherboard of a generic PC turned into a walkable map where the user moves areund fixing components and doing puzzles
+
+Puzzle view
+- inside every component there are specific rooms, each with a unique view and puzzle that reflects the component
 
 ## Wireframes
 Wireframes are simple page layouts that outline the size and placement of elements, and features on a page. They are generally devoid of color, font styles, logos or any design elements.
