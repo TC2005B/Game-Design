@@ -81,7 +81,6 @@ The player will take the role of a character inside a PC. The player's main obje
 <!---  |_Short identifier_|_As a [type of user], I want [some goal] so that [some reason]_|_Must have_|_Write here any additional consideration_| -->
 |Title|User story|Importance|Notes|
 |---|---|---|---|
-
 |Enter Game|As a player, I want to be able to enter the game's webpage|User must be able to load page|the user should be able to load the page regardless of the browser|
 |Game playthrough|As a player I want to be able to play the game without losing progress|once loaded the game must not crash|the game should be thoroughly tested to prevent game breaking bugs|
 |Copmuter Strain|As a player I don't want an online game to generate significant strain on my processor or graphics card|The game must be as efficent as possible|assets, both visual and auditory should be unloaded when not in use, and special effort should be made to make efficient code|
@@ -107,6 +106,8 @@ The player will take the role of a character inside a PC. The player's main obje
 
 ## Non-functional Requirements
 <!--- Non-functional requirements are restrictions on the system or the development process. Non-functional requirements can be more critical than functional ones. If they are not met, the system is useless! -->
+- Ensure that the information gathered is kept safely.
+- Use an SSL certificate on the website
 
 # Screens
 Identifying the individual screens (for an app), or pages (for a website) are where a product’s shape starts to become clear. They are a distillation of the user stories into a set of distinct sections that satisfy the needs and behaviors identified so far. The process of outlining an application’s screens may also highlight any requirements or considerations that have been overlooked up to this point.
