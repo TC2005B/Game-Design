@@ -1924,8 +1924,8 @@ MonoBehaviour:
   player: {fileID: 1845663956}
   offset: {x: 0, y: 0, z: -10}
   smoothFactor: 10
-  minValue: {x: -1.9, y: -1.2, z: -10}
-  maxValue: {x: 3, y: 2.2, z: -10}
+  minValue: {x: -3.65, y: -2.45, z: -10}
+  maxValue: {x: 4.65, y: 3.45, z: -10}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1953,7 +1953,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3.7644668
+  orthographic size: 2.4777212
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1977,7 +1977,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.39, y: 0.63, z: -10}
+  m_LocalPosition: {x: -1.57, y: -0.37, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2289,7 +2289,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 3
-      m_TileSpriteIndex: 3
+      m_TileSpriteIndex: 4
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2415,10 +2415,10 @@ Tilemap:
   - m_RefCount: 10
     m_Data: {fileID: 3266471548449317020, guid: 6ebd532cec27f4952bdda5081e19c8c8,
       type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 49636420498249401, guid: 6ebd532cec27f4952bdda5081e19c8c8, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 49636420498249401, guid: 6ebd532cec27f4952bdda5081e19c8c8, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 27
     m_Data:
@@ -2477,6 +2477,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b935440f425943f78858bbd86a0f793, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkpoint: {fileID: 2128787010}
+  scene: Puzzle_1
 --- !u!1 &1438633360
 GameObject:
   m_ObjectHideFlags: 0
@@ -2536,8 +2538,8 @@ GameObject:
   - component: {fileID: 1845663957}
   - component: {fileID: 1845663958}
   m_Layer: 0
-  m_Name: Player
-  m_TagString: Untagged
+  m_Name: Robot
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2656,3 +2658,33 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!1 &2128787009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2128787010}
+  m_Layer: 0
+  m_Name: CheckpointRam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2128787010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128787009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.14, y: -0.33, z: -15.904581}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

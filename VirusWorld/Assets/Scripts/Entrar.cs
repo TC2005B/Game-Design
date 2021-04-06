@@ -6,10 +6,12 @@ using UnityEditor;
 
 public class Entrar : MonoBehaviour
 {
-    
+    public Transform checkpoint;
+    public string scene;
     void OnTriggerEnter2D(Collider2D col)
     {
-        //lastPosition = player.position;
-        SceneManager.LoadScene("Puzzle_1", LoadSceneMode.Single);   
+        PlayerPrefs.SetFloat("X", checkpoint.position.x);
+        PlayerPrefs.SetFloat("Y", checkpoint.position.y);
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);   
     }
 }

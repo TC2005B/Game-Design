@@ -4,10 +4,32 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+
     public float velocidad;
 
+    Vector3 ubicacion;
+
+    Vector3 defaultValue = new Vector3(-4.44f, -2.18f, 0f);
     Vector3 direccion;
 
+    void Start()
+    {
+        //PlayerPrefs.DeleteAll();
+        if (gameObject.name == "Robot")
+        {
+            if (PlayerPrefs.HasKey("X"))
+            {
+                ubicacion.x = PlayerPrefs.GetFloat("X");
+                ubicacion.y = PlayerPrefs.GetFloat("Y"); 
+                transform.position = ubicacion;
+            }
+            else
+            {
+                transform.position = defaultValue; 
+            }
+        }
+        
+    }
     // Registra input de direcciones y mueve al jugador
     void Update()
     {
