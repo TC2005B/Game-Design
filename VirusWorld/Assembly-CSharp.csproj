@@ -47,12 +47,22 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
+    <Reference Include="UnityEngine">
+      <HintPath>/home/edgarostro/2019.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/home/edgarostro/2019.4.20f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
      <Compile Include="Assets\Scripts\CameraFollower.cs" />
      <Compile Include="Assets\Scripts\Entrar.cs" />
+     <Compile Include="Assets\Scripts\Guia.cs" />
+     <Compile Include="Assets\Scripts\Inicio.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Salir.cs" />
+     <Compile Include="Assets\Scripts\Ubicacion.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -74,19 +84,6 @@
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
->>>>>>> f3f04bf8a04ca070ba22462ba4c08e2e84824f81
-    <Reference Include="UnityEngine">
-      <HintPath>/home/edgarostro/2019.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor">
-      <HintPath>/home/edgarostro/2019.4.20f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-     <Compile Include="Assets\Scripts\CameraFollower.cs" />
-     <Compile Include="Assets\Scripts\Entrar.cs" />
-     <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\Salir.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/home/edgarostro/2019.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

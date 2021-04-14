@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Tilemap.Extras", "Unity.2D.Tilemap.Extras.csproj", "{002AC98D-1E66-292F-4AE5-0BBDEDDD6A7F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{31B69AC8-EF88-B944-E72A-727351A012AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Tilemap.Extras", "Unity.2D.Tilemap.Extras.csproj", "{002AC98D-1E66-292F-4AE5-0BBDEDDD6A7F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Tilemap.Extras.Editor", "Unity.2D.Tilemap.Extras.Editor.csproj", "{163A252E-E1DB-0A4C-1767-CC99AEF6FB9D}"
 EndProject
@@ -15,14 +15,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{002AC98D-1E66-292F-4AE5-0BBDEDDD6A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{002AC98D-1E66-292F-4AE5-0BBDEDDD6A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{002AC98D-1E66-292F-4AE5-0BBDEDDD6A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{002AC98D-1E66-292F-4AE5-0BBDEDDD6A7F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{31B69AC8-EF88-B944-E72A-727351A012AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{31B69AC8-EF88-B944-E72A-727351A012AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31B69AC8-EF88-B944-E72A-727351A012AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31B69AC8-EF88-B944-E72A-727351A012AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{002AC98D-1E66-292F-4AE5-0BBDEDDD6A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002AC98D-1E66-292F-4AE5-0BBDEDDD6A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002AC98D-1E66-292F-4AE5-0BBDEDDD6A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002AC98D-1E66-292F-4AE5-0BBDEDDD6A7F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{163A252E-E1DB-0A4C-1767-CC99AEF6FB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{163A252E-E1DB-0A4C-1767-CC99AEF6FB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{163A252E-E1DB-0A4C-1767-CC99AEF6FB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU

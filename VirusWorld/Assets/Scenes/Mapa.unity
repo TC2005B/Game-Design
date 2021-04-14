@@ -1918,7 +1918,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a86fb56e3237b49508ea63786d053960, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b435d3c9571e3f23a3c7396d355b5e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1845663956}
@@ -2474,7 +2474,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1196238605}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b935440f425943f78858bbd86a0f793, type: 3}
+  m_Script: {fileID: 11500000, guid: b6016f1872ce2faeca89e133eedab45d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   checkpoint: {fileID: 2128787010}
@@ -2553,7 +2553,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1845663953}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cf522cde78c143c394e506b86fa1792, type: 3}
+  m_Script: {fileID: 11500000, guid: e15bd1b487ed64255a4fa0d93d6f8349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 0.07
