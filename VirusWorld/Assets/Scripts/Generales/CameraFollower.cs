@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+Emilio Sanchez 
+Rafael Rios
+Edgar Rostro
+
+The camera traces the player icon within the map boundaries 
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

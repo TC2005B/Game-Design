@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+Emilio Sanchez 
+Rafael Rios
+Edgar Rostro
+
+Makes the players movement possible and saves his last position in the map right before entering each level 
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

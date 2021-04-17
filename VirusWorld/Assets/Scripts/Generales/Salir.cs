@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+Emilio Sanchez 
+Rafael Rios
+Edgar Rostro
+
+Returns the player to the motherboard (main exploration map) 
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;

@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+Emilio Sanchez 
+Rafael Rios
+Edgar Rostro
+
+An arrow that helps the player to get through the maze
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

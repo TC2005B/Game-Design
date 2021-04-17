@@ -55,14 +55,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CameraFollower.cs" />
-     <Compile Include="Assets\Scripts\Entrar.cs" />
-     <Compile Include="Assets\Scripts\Guia.cs" />
-     <Compile Include="Assets\Scripts\Inicio.cs" />
-     <Compile Include="Assets\Scripts\Menu.cs" />
-     <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\Salir.cs" />
-     <Compile Include="Assets\Scripts\Ubicacion.cs" />
+     <Compile Include="Assets\Scripts\CPU_Puzzle\Control.cs" />
+     <Compile Include="Assets\Scripts\CPU_Puzzle\Inputs.cs" />
+     <Compile Include="Assets\Scripts\CPU_Puzzle\Luces.cs" />
+     <Compile Include="Assets\Scripts\Generales\CameraFollower.cs" />
+     <Compile Include="Assets\Scripts\Generales\Player.cs" />
+     <Compile Include="Assets\Scripts\Generales\Reset.cs" />
+     <Compile Include="Assets\Scripts\Generales\Salir.cs" />
+     <Compile Include="Assets\Scripts\HDD_Puzzle\DropElem.cs" />
+     <Compile Include="Assets\Scripts\HDD_Puzzle\Movimiento.cs" />
+     <Compile Include="Assets\Scripts\HDD_Puzzle\Puntaje.cs" />
+     <Compile Include="Assets\Scripts\HDD_Puzzle\Tiempo.cs" />
+     <Compile Include="Assets\Scripts\Inicio\Menu.cs" />
+     <Compile Include="Assets\Scripts\Mapa\Entrar.cs" />
+     <Compile Include="Assets\Scripts\Ram_Puzzle\Guia.cs" />
+     <Compile Include="Assets\Scripts\Ram_Puzzle\Ubicacion.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

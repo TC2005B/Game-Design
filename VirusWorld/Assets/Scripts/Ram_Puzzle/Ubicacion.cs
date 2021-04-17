@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+Emilio Sanchez 
+Rafael Rios
+Edgar Rostro
+
+Randomnizes the ram position 
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
