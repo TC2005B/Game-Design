@@ -26,7 +26,7 @@ public class Control : MonoBehaviour
         if (acierto)
         {
             aciertos++;
-            textScore.text = "Aciertos: " + aciertos + "/10";
+            textScore.text = "Aciertos: " + aciertos + "/5";
         } 
         else
         {
@@ -38,11 +38,12 @@ public class Control : MonoBehaviour
 
     void menu()
     {
-        if (aciertos == 10)
+        if (aciertos >= 5)
         {
+            PlayerPrefs.SetInt("NC", PlayerPrefs.GetInt("NC", 0) + 1);
             textMessage.text = "¡FELICIDADES, ENVIASTE LAS SEÑALES CORRECTAS!\nPresiona 'R' para volver a jugar\nPresiona 'M' para continuar con tu aventura";
         }
-        if (intentos == 0)
+        else if (intentos <= 0)
         {
             textMessage.text = "¡PERDISTE, TE QUEDASTE SIN INTENTOS!\nPresiona 'R' para reintentar\nPresiona 'M' para volver al mapa";
         }
@@ -52,7 +53,3 @@ public class Control : MonoBehaviour
         }
     }
 }
-
-
-
-	

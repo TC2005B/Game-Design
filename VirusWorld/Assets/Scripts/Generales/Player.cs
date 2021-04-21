@@ -51,6 +51,6 @@ public class Player : MonoBehaviour
             rendererRobot.flipX = true;
         }
         direccion.y = Input.GetAxisRaw("Vertical");
-        transform.position = transform.position + direccion * velocidad;
+        transform.position = transform.position + direccion * velocidad *  Time.deltaTime;
     }
 }

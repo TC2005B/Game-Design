@@ -3,7 +3,7 @@ Emilio Sanchez
 Rafael Rios
 Edgar Rostro
 
-Stores the score and virus count and displays it
+Stores the score and virus count and displays its
 */
 using System.Collections;
 using System.Collections.Generic;
@@ -24,13 +24,13 @@ public class Puntaje : MonoBehaviour
         if (col.tag == "Archivos")
         {
             score++;
-            textScore.text = "Puntos: " + score;
+            textScore.text = "Puntos: " + score + "/10";
         }
         // col.collider.name == "VirusIcon"
         else if (col.tag == "VirusIcon")
         {
             virus++;
-            textVirus.text = "Virus: " + virus;
+            textVirus.text = "Virus: " + virus + "/3";
         }
     }
 }

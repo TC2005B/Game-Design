@@ -18,7 +18,7 @@ public class Movimiento : MonoBehaviour
     void Update()
     {
         movimiento.x = Input.GetAxisRaw("Horizontal");
-        transform.position = transform.position + movimiento * velocidad;
+        transform.position = transform.position + movimiento * velocidad *Time.deltaTime;
     }
    
 }

@@ -41,13 +41,20 @@ public class Luces : MonoBehaviour
 
     public bool comparacion()
     {
-        for (int i = 0; i < señal.Count; i++)
+        if(señal.Count == 0 || player.Count == 0)
         {
-            if (!señal[i].Equals(player[i]))
-            {
-                return false;
-            }
+            return false;
         }
-        return true;
+        else
+        {
+            for (int i = 0; i < señal.Count; i++)
+            {
+            if (!señal[i].Equals(player[i]))
+                {
+                return false;
+                }
+            }
+            return true;
+        }
     }
 }

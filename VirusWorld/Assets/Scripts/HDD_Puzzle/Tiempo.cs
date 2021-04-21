@@ -46,21 +46,22 @@ public class Tiempo : MonoBehaviour
             GameOver();
         }
     }
-
+    
     void GameOver()
     {
         // Stop the invokes in this and the other script
         dropper.StopDroppping();
         CancelInvoke();
-        if (puntos.score == 10)
-        {    
+        if (puntos.score >= 10 && puntos.virus < 3)
+        {
+            PlayerPrefs.SetInt("NC", PlayerPrefs.GetInt("NC", 0) + 1);
             textMessage.text = "¡FELICIDADES, TE SALVASTE DE LOS VIRUS!\nPresiona 'R' para volver a jugar\nPresiona 'M' para continuar con tu aventura";
         }
-        else if (puntos.virus ==  3)
+        else if (puntos.virus >= 3 && puntos.score < 10)
         {
             textMessage.text = "¡PERDISTE, TU COMPUTADORA SE INFECTO!\nPresiona 'R' para reintentar\nPresiona 'M' para volver al mapa";
         }
-        else if (timer == 0)
+        else if (timer == 0 && puntos.virus < 3 && puntos.score < 10)
         {
             textMessage.text = "¡PERDISTE, TE QUEDASTE SIN TIEMPO!\nPresiona 'R' para reintentar\nPresiona 'M' para volver al mapa";
         }

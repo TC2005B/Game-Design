@@ -15,9 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Puzzles/Ram_Puzzle.unity
     guid: b7657613de58b4ffcb33cea54f1a6eed
   - enabled: 1
-    path: Assets/Scenes/Puzzles/HDD_Puzzle.unity
-    guid: 0ed9c072b64d5f20aa504da3a90977cb
-  - enabled: 1
     path: Assets/Scenes/Puzzles/CPU_Puzzle.unity
     guid: c3b4f189f974f6cdb85788ee89963565
+  - enabled: 1
+    path: Assets/Scenes/Puzzles/HDD_Puzzle.unity
+    guid: 0ed9c072b64d5f20aa504da3a90977cb
   m_configObjects: {}
