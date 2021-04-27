@@ -11,7 +11,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
+    PuntajeGlobal scriptPuntaje;
     public float velocidad;
 
     Vector3 ubicacion;
@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        
         //PlayerPrefs.DeleteAll();
         if (gameObject.name == "Robot")
         {
@@ -34,6 +35,8 @@ public class Player : MonoBehaviour
             {
                 transform.position = defaultValue; 
             }
+            scriptPuntaje = GetComponent<PuntajeGlobal>();
+            scriptPuntaje.CambioPuntaje();
         }
         
     }

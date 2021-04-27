@@ -12,14 +12,27 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    api apu;
+
+    public void Start()
+    {
+        apu = GetComponent<api>();
+    } 
+
     public void inicio()
     {
         PlayerPrefs.DeleteAll();
-        SceneManager.LoadScene("Mapa");
+        SceneManager.LoadScene("Registro");
     }
 
     public void opciones()
     {
         SceneManager.LoadScene("Opciones");
+    }
+
+    public void iniciarJuego()
+    {
+        SceneManager.LoadScene("Mapa");
+        StartCoroutine(apu.uploadData());
     }
 }

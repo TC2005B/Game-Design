@@ -1,26 +1,34 @@
-﻿using System.Collections;
+﻿/*
+Emilio Sanchez 
+Rafael Rios
+Edgar Rostro
+
+It will ask the user for input of his username and age to later store in the database
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class readInput : MonoBehaviour
 {
-    string input;
+    string inputusuario;
+    int inputedad;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void ReadStringInput(string s)
     {
-        input = s;
-        Debug.Log(input);
+        inputusuario = s;
+        PlayerPrefs.SetString("Usuario",inputusuario);
+        Debug.Log(PlayerPrefs.GetString("Usuario", "nada"));
+    }
 
+
+    public void ReadIntInput(string e)
+    {
+        inputedad = int.Parse(e);
+        PlayerPrefs.SetInt("Edad",inputedad);
+        Debug.Log(PlayerPrefs.GetInt("Edad", 0));
     }
 }

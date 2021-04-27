@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+Emilio Sanchez 
+Rafael Rios
+Edgar Rostro
+
+It destroy the file/virus prefabs on contact with the HDD 
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -18,11 +18,12 @@ public class Reset : MonoBehaviour
 
     DropElem dropper;
     Tiempo timer;
-
+    api apu;
     void Start()
     {
         dropper = GetComponent<DropElem>();
         timer = GetComponent<Tiempo>();
+        apu = GetComponent<api>();
     }
 
     // Update is called once per frame
@@ -35,6 +36,7 @@ public class Reset : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.M))
         {
             SceneManager.LoadScene("Mapa");
+            StartCoroutine(apu.updateData());
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {

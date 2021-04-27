@@ -56,6 +56,7 @@ public class Tiempo : MonoBehaviour
         {
             PlayerPrefs.SetInt("NC", PlayerPrefs.GetInt("NC", 0) + 1);
             textMessage.text = "¡FELICIDADES, TE SALVASTE DE LOS VIRUS!\nPresiona 'R' para volver a jugar\nPresiona 'M' para continuar con tu aventura";
+            PlayerPrefs.SetInt("HDDWIN", PlayerPrefs.GetInt("HDDWIN", 0) + 1);
         }
         else if (puntos.virus >= 3 && puntos.score < 10)
         {

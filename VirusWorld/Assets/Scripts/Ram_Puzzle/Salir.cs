@@ -11,11 +11,21 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
+
 public class Salir : MonoBehaviour
 {
+    api apu;
+
+    public void Start()
+    {
+        apu = GetComponent<api>();
+    } 
     void OnTriggerEnter2D(Collider2D col)
     {
+
         SceneManager.LoadScene("Mapa", LoadSceneMode.Single);
+        StartCoroutine(apu.updateData());
         PlayerPrefs.SetInt("NC", PlayerPrefs.GetInt("NC", 0) + 1);
+        PlayerPrefs.SetInt("RAMWIN", PlayerPrefs.GetInt("RAMWIN", 0) + 1);
     }
 }

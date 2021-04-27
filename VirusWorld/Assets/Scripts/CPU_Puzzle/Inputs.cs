@@ -18,13 +18,17 @@ public class Inputs : MonoBehaviour
 
     Luces luces;
     Control control;
+    api apu;
 
     // Start is called before the first frame update
     void Start()
     {
         luces = GetComponent<Luces>();
         control = GetComponent<Control>();
+        apu = GetComponent<api>();
     }
+
+
 
     // Update is called once per frame
     void Update()
@@ -35,6 +39,7 @@ public class Inputs : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.M))
         {
+           StartCoroutine(apu.updateData());
             SceneManager.LoadScene("Mapa");
         }
         if (Input.GetKeyDown(KeyCode.Space))
@@ -66,7 +71,8 @@ public class Inputs : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            control.puntos(luces.comparacion());
+            control.acierto = luces.comparacion();
+            control.puntos();
         }
     }
 }

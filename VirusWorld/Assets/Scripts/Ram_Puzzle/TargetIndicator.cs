@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+Emilio Sanchez 
+Rafael Rios
+Edgar Rostro
+
+It shows an arrow that will point towards the RAM objective at any given time until it's very near
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
