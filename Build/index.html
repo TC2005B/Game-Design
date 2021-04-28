@@ -1,18 +1,200 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | VirusWorld</title>
-  </head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>Virus World</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+<style type="text/css">
+    *{
+    padding: 0;
+    border: none;
+    margin: 10px;
+    font-family: 'Zen Dots', cursive;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #284751;
+}
+
+.row{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    color: #668d90;
+}
+
+#gameImitation{
+    background-color:#d7d2bb;
+    height: 600px;
+    width: 100%;
+    border-width: 4px;
+    border-color: #668d90;
+    border-style: solid;
+}
+
+.row_item_l{
+    order: 1;
+}
+
+.row_item_r{
+    order: 2;
+}
+
+#link{
+    text-decoration: none;
+    color: #d7d2bb;
+    
+}
+#link:hover,.shineTitle:hover{
+    color: #ea7a59;
+}
+
+#inlineLink{
+    text-decoration: none;
+    color: #ea7a59;
+    
+}
+
+#shine:hover{
+    color: #d7d2bb;
+}
+
+.navbar_row{
+    margin: 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    
+}
+
+ .navbar_link{
+    font-size: large;
+}
+
+hr{
+    border-top: 1px solid #668d90 ;
+}
+
+#unity-canvas{
+    margin: 0;
+    background-color: #d7d2bb; 
+    border-style: solid;
+    border-color: #668d90;
+    min-width: 512px;
+    min-height: 384px;
+    max-width: 1024px;
+    max-height: 768px;
+}
+</style> 
+</head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=1024 height=768 style="width: 1024px; height: 768px; background: #231F20"></canvas>
-    <script src="Build/VIR.loader.js"></script>
+            <!--navbar-->
+    <div class="navbar_row">
+        <a class="navbar_link" id="link" href="#ComoJugar">Como Jugar</a>
+        <a class="navbar_link" id="link" href="#Trailer">Trailer</a>
+        <a class="navbar_link" id="link" href="#AcercaProj">Acerca del Proyecto</a>
+        <a class="navbar_link" id="link" href="#Creadores">Creadores</a>
+        <a class="navbar_link" id="link" href="#Faq">FAQ</a>
+        <a class="navbar_link" id="link" href="#Creditos">Creditos</a>
+    </div>
+    <hr>
+    
+    <div class="columns">
+        <!--main game display-->        
+        <div class="row">
+            <canvas id="unity-canvas" width=1024 height=768 style="width: 1024px; height: 768px; background: #231F20"></canvas>
+        </div>
+        <hr>
+        <!--how to play-->
+        <div class="row shineTitle" id="ComoJugar" >
+            <h1>Como Jugar</h1>
+        </div>
+        <div class="row" id="shine">
+            <div class="row_item_l">
+                <p>Utilizando las flechas o las teclas WASD 
+                mueve el personaje para aprender acerca de los componentes principales de las computadoras y ayuda a salvarla de virus !.
+                <br>
+                Resuelve los minijuegos y aprende acerca de los diferentes componentes de las computadoras.
+                <br>
+                Ve a el edificio central para terminar o salir del Juego.</p>
+            </div>
+        </div>
+        <hr>
+        <!--Trailer-->
+        <div class="row shineTitle" id="Trailer">
+            <h1>Trailer</h1>
+        </div>
+        <div class="row" id="shine">
+            <iframe width="660" height="415" src="https://www.youtube.com/embed/VhysNS5ACNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <hr>
+
+        <!--Creators-->
+        <div class="row shineTitle" id="AcercaProj">
+            <h1>Acerca del Proyecto</h1>
+        </div>
+        <div class="row" id="shine">
+            <div class="row_item_l"><p>Este proyecto fue creado con el proposito de promover las carreras relacionadas a STEAM (Science, Technology, Engineering, Art, Mathematics) y enseñar de una manera basica los componentes de la computadora.<br>
+            Fue creado con el Unity Game Engine version 2019.4.25f1 LTS.</p></div>
+        </div>
+        <hr>
+        <!--About-->
+        <div class="row shineTitle" id="Creadores">
+            <h1>Creadores</h1>
+        </div>
+        <div class="row" id="shine">
+            <div class="row_item_l"><p>
+                Creado por :<br>
+                    > Rafael Eduardo Rios Garcia   - A01028722<br>
+                    > Edgar Iván Rostro Morales    - A01029036<br>
+                    > Jaime Emilio Sánchez Benítez - A01365624<br>
+                Estudiantes del Tecnologico de Monterrey para la Materia Construcción de software y toma de decisiones durante el cuarto semestre de la Carrera en ITC (ngeneria en Tecnologias Computacionales)</p></div>
+        </div>
+        <hr>
+        <!--FAQ-->
+        <div class="row shineTitle" id="Faq">
+            <h1>FAQ</h1>
+        </div>
+        <div class="row" id="shine">
+            <div class="row_item_l"><p>
+            ¿ Como puedo jugar el juego ? A : espera a que cargue completamente y dale click a el boton de play.<br>
+            ¿ Puedo jugar el juego mas de una vez ? A : Claro!, puedes jugarlo las veces que quieras.<br>
+            ¿ Como puedo yo hacer mis propios juegos? A : Un buen lugar para empezar es utilizando un Game Engine, el cual te permite crear juegos de una manera mas rapida y divertida, un buen lugar para empezar es aqui --> <a href="https://learn.unity.com/" id="inlineLink">Unity Learn</a><br>
+            </p></div>
+        </div>
+
+        <hr>
+        <!--FAQ-->
+        <div class="row shineTitle" id="Creditos">
+            <h1>Creditos</h1>
+        </div>
+        <div class="row" id="shine">
+            <div class="row_item_l"><p>
+            <div>Iconos diseñados por <a id="inlineLink" href="https://www.flaticon.es/autores/smashicons" title="Smashicons">Smashicons</a> from <a id="inlineLink" href="https://www.flaticon.es/" title=“Flaticon”>www.flaticon.es</a></div>
+
+<div>Iconos diseñados por <a id="inlineLink" href="https://www.freepik.com" title="Freepik">Freepik</a> from <a id="inlineLink" href="https://www.flaticon.es/" title=“Flaticon">www.flaticon.es</a></div>
+
+<div>Pattern vector created by<a id="inlineLink" href='https://www.freepik.com/vectors/pattern'> macrovector_official - www.freepik.com</a></div>
+
+<div>Iconos diseñados por <a id="inlineLink" href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a id="inlineLink" href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+
+<div>Icons made by <a id="inlineLink" href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a id="inlineLink" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            </p></div>
+        </div>
+        
+    </div>
+    <script src="Build/web.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/VIR.data",
-        frameworkUrl: "Build/VIR.framework.js",
-        codeUrl: "Build/VIR.wasm",
+        dataUrl: "Build/web.data",
+        frameworkUrl: "Build/web.framework.js",
+        codeUrl: "Build/web.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "VirusWorld",
@@ -20,6 +202,7 @@
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
+
     </script>
   </body>
 </html>
